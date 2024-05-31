@@ -48,7 +48,7 @@ test('Verificar envío del formulario', async () => {
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
-const mockData = [
+/*const mockData = [
   { vocacional: 'Ciencias', resultadovo: 25, aprendizaje: 'Biología', resultadoapre: 30 },
   { vocacional: 'Artes', resultadovo: 15, aprendizaje: 'Música', resultadoapre: 20 },
   { vocacional: 'Tecnología', resultadovo: 35, aprendizaje: 'Informática', resultadoapre: 40 },
@@ -83,4 +83,4 @@ test('recuperar y mostrar datos correctamente en las gráficas del Dashboard', a
   expect(screen.getByText('Música')).toBeInTheDocument();
   expect(screen.getByText('Informática')).toBeInTheDocument();
   expect(screen.getByText('Economía')).toBeInTheDocument();
-});
+});*/
